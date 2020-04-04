@@ -1,0 +1,37 @@
+.container {
+    background-color: #ffbef4;
+    padding: 22px;
+}
+
+.container .register-form {
+    width: 39%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 35px 15px;
+    margin: 0 auto;
+    min-width: 300px;
+    box-shadow: 0px 0px 8px -2px #000;
+}
+
+.container .register-form h5 {
+    margin-top: 0;
+}
+
+.form-filed input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    display: inline-block;
+    margin-bottom: 28px;
+}
+
+#register-btn {
+    background: #f53cbc;
+    border: none;
+    border-radius: 30px;
+    padding: 3px 18px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}

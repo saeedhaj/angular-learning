@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="login-form">
+        <h5>{{pageTitle}}</h5>
+        <p> لطفا" شماره تلفن همراه خود را وارد کنید.</p>
+        <h5>{{finalMessage}}</h5>
+        <div>firstName: {{firstName}}</div>
+        <div>lastName: {{lastName}}</div>
+
+        <div class="form">
+            <input [(ngModel)]="phoneNumber" type="number" placeholder="شماره تلفن همراه" />
+            <button (click)="getCode()">دریافت کد</button>
+            <button (click)="printFirstName()">نمایش نام</button>
+            <button (mouseover)="showMeLastName()">نمایش نام خانوادگی</button>
+        </div>
+        <p class="login-line">. . . . .</p>
+        <p class="login-hint">اگر قبلا برای حساب خود رمز عبور را وارد کرده اید میتواند با نام کاربری و رمز عبور نیز وارد شوید.</p>
+        <a class="login-link" href="">ورد یا رمز عبور</a>
+        <p>استفاده از این سایت ب معنی ئذیرش
+
+            <a href="">قوانین و مقررات ریح.ون</a> است.
+        </p>
+    </div>
+</div>

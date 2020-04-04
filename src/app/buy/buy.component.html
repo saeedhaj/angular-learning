@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row">
+        <div id="header">
+            <h5>pay Invoice</h5>
+        </div>
+        <div class="buy-form col ">
+            <div class="d-flex flex-column ">
+                <label>Payment amount</label>
+                <input [(ngModel)]="paynumber " type="number">
+            </div>
+            <div class="d-flex flex-column ">
+                <label>Name on card</label>
+                <input [(ngModel)]="text " type="text">
+            </div>
+            <div class="d-flex flex-column ">
+                <label>Card number</label>
+                <input [(ngModel)]="cardnumber " type="number">
+            </div>
+            <div>
+                <div class="d-flex flex-column ">
+                    <label>Expiry data</label>
+                    <input [(ngModel)]="exiryData" type="date">
+                </div>
+                <div class="d-flex flex-column ">
+                    <label>Security code</label>
+                    <input [(ngModel)]="securityCode" type="number">
+                </div>
+            </div>
+            <div class="d-flex flex-column ">
+                <label>ZIP/Postal code</label>
+                <input [(ngModel)]="postalCode" type="number">
+            </div>
+            <button (click)="pay() ">pay</button>
+        </div>
+    </div>
+</div>

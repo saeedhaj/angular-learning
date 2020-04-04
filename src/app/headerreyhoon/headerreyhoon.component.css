@@ -1,0 +1,28 @@
+.container {
+    background: white;
+    padding: 8px 20px;
+    border-bottom: 2px inset red;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.container button {
+    margin-left: 20px;
+    background: white;
+    border: none;
+    text-decoration: none;
+}
+
+.container #demo {
+    left: 10px;
+    font-family: Arial;
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+.container #btn {
+    padding-left: 13px;
+    margin-left: 7px;
+    border-left: 1px solid #837c7c;
+}

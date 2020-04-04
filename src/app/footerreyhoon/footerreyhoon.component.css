@@ -1,0 +1,39 @@
+.container {
+    background: black;
+    width: 100%;
+    font: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.container #aa1 {
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container #aa2 {
+    color: yellow;
+    text-align: center;
+}
+
+.container #aa3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container #aa4 {
+    border: 2px solid rgb(143, 139, 139);
+    border-radius: 10px;
+    position: absolute;
+    left: 800px;
+    margin-bottom: 80px;
+}
+
+.container #aa5 {
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+}

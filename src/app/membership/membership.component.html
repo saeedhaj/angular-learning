@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="register-form">
+        <h5> ثبت نام در ریحون</h5>
+        <p> لطفا" نام ونام خانوادگی ایمیل و شماره تلفن خود را وارد کنید.</p>
+        <p> صاحب رستوران هستید ؟ <span style="color: red"> رستوران خود را  اینجا ثبت کنید.</span></p>
+        <form>
+            <div class="form-filed">
+                <input [(ngModel)]="fullName" name="fullName" type="text" placeholder="نام و نام خانوادگی">
+            </div>
+            <div class="form-filed">
+                <input type="email" [(ngModel)]="email" name="email" placeholder="ادرس ایمیل" size="24px" />
+            </div>
+            <div class="form-filed">
+                <input type="number" [(ngModel)]="phoneNumber" name="phoneNumber" placeholder="شماره تلفن همراه" />
+
+            </div>
+        </form>
+        <p>استفاده از این سایت , به معنی پذیرش <span style="color: red">قوانین و مقررات ریحون</span> است</p>
+        <input (click)="register()" id="register-btn" type="button" value="ثبت نام" />
+    </div>
+</div>

@@ -1,0 +1,9 @@
+#demo {
+    color: crimson;
+    background: aquamarine;
+    font-family: sans-serif;
+    border: 2px solid black;
+    padding-left: 2px;
+    width: 75px;
+    text-align: center;
+}
