@@ -13,13 +13,14 @@ export class BuyComponent implements OnInit {
   exiryData: Date;
   securityCode: number;
   postalCode: number;
+  postal: string;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  pay() {
-    console.log(`payment${this.paynumber} text is${this.text}cardname ${this.cardnumber} exirydata ${this.exiryData}sectori ${this.securityCode}postcart ${this.postalCode}`);
+  kharid() {
+    console.log(`payment${this.paynumber} text is${this.text}cardname ${this.cardnumber} exirydata ${this.exiryData}sectori ${this.securityCode}postcart ${this.postalCode} p ${this.postal}`);
     // alert(this.paynumber)
   }
 
